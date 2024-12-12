@@ -43,37 +43,13 @@ The **Real-Time Chat Application** is a full-stack web application built using t
 
 ### Prerequisites
 Ensure you have the following installed:
-- Node.js
-- MongoDB (local or cloud-based, e.g., MongoDB Atlas)
-- Git
+- **Node.js**  
+- **MongoDB** (local or cloud-based, e.g., MongoDB Atlas)  
+- **Git**
 
 ### Steps
 
+1. **Navigate to the project directory**:
+   ```bash
+   cd RealTimeChatApp
 
-# 1. Navigate to the project directory
-cd RealTimeChatApp
-
-# 2. Install dependencies for both the frontend and backend
-cd client
-npm install
-cd ../server
-npm install
-
-# 3. Configure environment variables
-# Create a .env file in the server folder and add the following:
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-
-# 4. Start the application
-# Run the backend server
-cd server
-npm start
-
-# Run the frontend
-cd client
-npm start
-
-# 5. Access the application
-# Open your browser and go to:
-http://localhost:3000
