@@ -47,9 +47,4 @@ Ensure you have the following installed:
 - **MongoDB** (local or cloud-based, e.g., MongoDB Atlas)  
 - **Git**
 
-### Steps
-
-1. **Navigate to the project directory**:
-   ```bash
-   cd RealTimeChatApp
 
